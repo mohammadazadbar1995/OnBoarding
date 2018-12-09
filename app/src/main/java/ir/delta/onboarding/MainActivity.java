@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout mDotLayout;
     private int mCurrentPage;
     private ArrayList<OnBoarding> list;
-
+//commit ok
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
