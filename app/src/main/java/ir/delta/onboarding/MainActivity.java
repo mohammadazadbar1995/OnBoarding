@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private int mCurrentPage;
     private ArrayList<OnBoarding> list;
 //commit ok
+    //tag
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
