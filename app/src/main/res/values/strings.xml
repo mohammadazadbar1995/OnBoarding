@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">OnBoarding</string>
+    <string name="next_page">بعدی</string>
+    <string name="back_page">قبلی</string>
+    <string name="start">شروع</string>
+</resources>

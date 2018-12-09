@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/slide_image"
+            android:layout_width="@dimen/image_size_on_boarding"
+            android:layout_height="@dimen/image_size_on_boarding"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="-50dp" />
+
+        <TextView
+            android:id="@+id/slide_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slide_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/slide_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slide_heading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:maxWidth="300dp"
+            android:maxLines="3"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
